@@ -2,6 +2,11 @@
 #BUAN 5112 - Winter 2022
 #Kate Imbrone
 
+#Load Data
+      nfhs <- read_dta('DATA/IAHR52FL.dta')#Loads the 3,588 file as "nfhs"
+                                          #Later, we will break this down
+                                          # into subsets
+
 #Libraries Used ----
       library(tidyverse)
       library(haven)
